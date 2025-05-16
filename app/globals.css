@@ -5,3 +5,13 @@
 body {
   @apply bg-gray-100 text-black;
 }
+@font-face {
+  font-family: 'MagicSchool';
+  src: url('/fonts/MagicSchoolOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-magic {
+  font-family: 'MagicSchool', cursive;
+}
